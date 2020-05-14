@@ -42,7 +42,7 @@ class CompetitionsController < ApplicationController
   end
 
   def competition_params
-    params.permit(:name, :unit, :finished, :win_definition, :max_attempts)
+    params.permit(:name, :unit, :win_definition, :max_attempts, :finished)
   end
 
   def render_error

@@ -26,6 +26,10 @@ class ResultsController < ApplicationController
 
   private
 
+  def set_result
+    @result = Result.find(params[:id])
+  end
+
   def set_competition
     unless params[:competition_id].present?
       competition = Competition.new(name: params[:competition], unit:params[:unit])
@@ -34,10 +38,6 @@ class ResultsController < ApplicationController
       competition.save!
       params[:competition_id] = competition.id
     end
-  end
-
-  def set_result
-    @result = Result.find(params[:id])
   end
 
   def set_athlete
