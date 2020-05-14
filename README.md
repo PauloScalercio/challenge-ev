@@ -46,17 +46,23 @@ rake db:create
 ```
 > create the database
 
+
+
 ```
 rake db:migrate 
 
 ```
 > build the tables (competition, result and athlete)
 
+
+
 ```
 rake db:seed
 
 ```
 > populate the database with some fictional entries. (testing purposes)
+
+
 
 - Now you are all set, run the application using:
 
