@@ -15,7 +15,7 @@ class Result < ApplicationRecord
 
   def competition_in_progress
     if competition.try(:finished?)
-      error_message = "This competition has ended"
+      error_message = "This competition has already ended"
       self.errors.add(:competition, error_message)
     end
   end
@@ -26,7 +26,7 @@ class Result < ApplicationRecord
       max_attempts = competition.max_attempts
 
       if number_of_attempts >= max_attempts
-        error_message = "The maximum number of attempts was reached"
+        error_message = "You have reached the maximum number of attempts"
         self.errors.add(:athlete, error_message)
       end
     end
