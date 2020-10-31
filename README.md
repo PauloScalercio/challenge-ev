@@ -240,6 +240,8 @@ This API is a prototype and should not be used on live systems.
 
 Git was used for versioning.
 
+- TODO: We should consider using github flow and conventional commits.
+
 ## Authors
 
 * **Paulo Scalercio** - *API* - [PauloScalercio](https://github.com/PauloScalercio)
