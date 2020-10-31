@@ -248,5 +248,5 @@ Git was used for versioning.
 
 * A lot of Ruby tutorial videos out there
 * Ruby Docs and community
-* etc
+* Help from friends that are more experienced with ruby on rails
 
