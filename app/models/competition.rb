@@ -16,7 +16,7 @@ class Competition < ApplicationRecord
   validates :win_definition,
     presence: true,
     inclusion: { in: %w(min max),
-    message: "%{value} need to be min or max" }
+    message: "%{value} neet to be between min or max range" }
 
   
 
