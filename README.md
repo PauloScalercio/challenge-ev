@@ -14,7 +14,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 
 
-### Prerequisites
+### Prerequisites before running
 
 
 DISCLAIMER: This project was built using Ruby 2.5.1 and Rails 5.2.4
@@ -31,7 +31,7 @@ This will get you a copy of the project.
 
 
 
-### Installing
+### Installing the application
 
 Now is time to go through the instalation process.
 
