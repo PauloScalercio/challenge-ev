@@ -15,7 +15,7 @@ class Result < ApplicationRecord
 
   def competition_in_progress
     if competition.try(:finished?)
-      error_message = "This competition has already ended"
+      error_message = "This competition has already ended, you need to start a new one"
       self.errors.add(:competition, error_message)
     end
   end
