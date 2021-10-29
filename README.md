@@ -6,6 +6,8 @@ As the Olimpic Games gets closer, we were requested to build an REST API using R
 
 This API will be responsible for storing and addressing the winners of some sports.
 
+This was done for Estante Virtual's code challenge
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
