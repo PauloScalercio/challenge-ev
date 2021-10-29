@@ -26,7 +26,7 @@ class Result < ApplicationRecord
       max_attempts = competition.max_attempts
 
       if number_of_attempts >= max_attempts
-        error_message = "You have reached the maximum number of attempts. You need to start a new competition"
+        error_message = "You have reached the maximum number of attempts. You need to start a new competition to perform this action"
         self.errors.add(:athlete, error_message)
       end
     end
